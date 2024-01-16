@@ -1,0 +1,125 @@
+/* font family */
+body{
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.banner-data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-img{
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border-radius: 16px;
+}  
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 135px;
+}
+nav > ul{
+    display: flex;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+}
+.nav-title{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #131313;
+}
+.title-content{
+    display: flex;
+    gap: 16px;
+    padding-left: 40px;
+    align-items: center;
+}
+.title-content img{
+    width: 48px;
+    height: 56px;
+}
+.nav-title .travel{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+nav li{
+    list-style: none;
+    margin: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav li a .home{
+    color: #FF5400;
+}
+.banner{
+    margin-bottom: 80px;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 130px;
+    
+}
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 670px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.banner-form{
+    display: flex;
+    padding: 16px;
+    justify-content: space-evenly;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 48px;
+}
+.input-box{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
