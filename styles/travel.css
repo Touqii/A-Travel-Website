@@ -165,20 +165,3 @@ main{
     height: 480px;
     border-radius: 16px;
 }
-
-/* responsive media queries */
-@media screen and (max-width: 600px) {
-    /* nav{
-        flex-direction: column;
-    }
-    /* .team-img-container{
-        grid-template-columns: 1fr;
-    }
-    .team-content{
-        padding-left: 20px;
-        padding-right: 20px;
-    } */ */
-}
-
-
-/*  */
