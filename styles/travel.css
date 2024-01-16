@@ -2,24 +2,6 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
-header{
-    margin: 0 auto;
-    padding: 0;
-}
-
-.banner-data{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.banner-img{
-    max-width: 1170px;
-    height: 500px;
-    margin: 0 auto;
-    border-radius: 16px;
-    border-radius: 16px;
-}  
 
 nav{
     display: flex;
@@ -79,20 +61,13 @@ nav li a{
 nav li a .home{
     color: #FF5400;
 }
-.banner{
-    margin-bottom: 80px;
-}
-.banner-content{
-    max-width: 800px;
-    text-align: center;
-    margin: 0 auto;
-}
+
 .banner-title{
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
     margin-top: 130px;
-    
+    margin-left: 100px;
 }
 .banner-description{
     color: #FFF;
@@ -102,8 +77,22 @@ nav li a .home{
     font-weight: 400;
     width: 670px;
     margin-top: 20px;
-    margin-left: 45px;
+    margin-left: 50px;
 }
+.banner-data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-img{
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-position: cover;
+}  
 .banner-form{
     display: flex;
     padding: 16px;
@@ -123,3 +112,73 @@ nav li a .home{
     font-size: 16px;
     font-weight: 400;
 }
+header{
+    margin: 0 auto;
+    padding: 0;
+}
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* tours section */
+
+.tours{
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+}
+.tours h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.tours-content h2,p{
+    margin-bottom: 24px;
+}
+.tours-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.second-para{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.tours-content ul li a{
+    text-decoration: none;
+    color: rgba(19, 19, 24, 0.70);
+}
+.tours-content ul li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.tours-content button{
+    margin-top: 10px;
+}
+.tours-img{
+    width: 540px;
+    height: 480px;
+    border-radius: 16px;
+}
+
+/* responsive media queries */
+@media screen and (max-width: 600px) {
+    /* nav{
+        flex-direction: column;
+    }
+    /* .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .team-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    } */ */
+}
+
+
+/*  */
