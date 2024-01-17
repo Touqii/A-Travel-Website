@@ -61,13 +61,17 @@ nav li a{
 nav li a .home{
     color: #FF5400;
 }
-
+.banner{
+    max-width: 800px;
+}
+.banner-content{
+    margin-top: 106px;
+}
 .banner-title{
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
-    margin-top: 130px;
-    margin-left: 100px;
+    text-align: center;
 }
 .banner-description{
     color: #FFF;
@@ -86,12 +90,11 @@ nav li a .home{
     transform: translate(-50%, -50%);
 }
 .banner-img{
-    max-width: 1170px;
+    width: 1170px;
     height: 500px;
-    margin: 0 auto;
+    margin-left: 170px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-    background-position: cover;
 }  
 .banner-form{
     display: flex;
@@ -100,7 +103,7 @@ nav li a .home{
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    margin-top: 48px;
+    margin-top: 80px;
 }
 .input-box{
     width: 174px;
@@ -112,10 +115,7 @@ nav li a .home{
     font-size: 16px;
     font-weight: 400;
 }
-header{
-    margin: 0 auto;
-    padding: 0;
-}
+
 main{
     max-width: 1170px;
     margin: 0 auto;
@@ -127,6 +127,7 @@ main{
     display: flex;
     margin-top: 100px;
     gap: 24px;
+    margin-bottom: 100px;
 }
 .tours h2{
     color: #131318;
@@ -162,6 +163,34 @@ main{
 }
 .tours-img{
     width: 540px;
-    height: 480px;
+    height: 400px;
     border-radius: 16px;
+}
+/* destination section */
+.Destination{
+    margin-top: 120px;
+}
+.Destination-text{
+    max-width: 643px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Srilanka{
+    width: 374px;
+    height: 286px;
+}
+.North-America{
+    width: 474px;
+    height: 286px;
+}
+.Kashmir{
+    width: 274px;
+    height: 286px;
+}
+.row{
+    height: 300px;
+    max-width: 1170px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
 }
