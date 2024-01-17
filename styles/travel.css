@@ -168,12 +168,26 @@ main{
 }
 /* destination section */
 .Destination{
-    margin-top: 120px;
+    margin-top: 140px;
 }
 .Destination-text{
     max-width: 643px;
     text-align: center;
     margin: 0 auto;
+
+}
+.Destination-text h2{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Destination-text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 .Srilanka{
     width: 374px;
@@ -193,4 +207,74 @@ main{
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
+}
+
+/* choise section */
+
+.choise{
+    margin-top: 100px;
+}
+.choise-content{
+    max-width: 643px;
+    text-align: center;
+    margin: 0 auto;
+}
+.choise-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choise-text{
+    color: rgba(19, 19, 24, 0.70);
+   text-align: center;
+   font-size: 16px;
+   font-weight: 400;
+}
+.box-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.first-box{
+    width: 573px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px 0 30px 30px;
+}
+.second-box{
+    width: 573px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px 0 30px 30px;
+}
+.third-box{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 30px 0px 30px 30px;
+}
+.choise-box-container img{
+    width: 64px;
+    height: 64px;
+    margin-top: 32px;
+}
+.choise-box-container h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.choise-box-container p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 486px;
 }
