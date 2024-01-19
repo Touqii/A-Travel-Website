@@ -36,6 +36,7 @@ nav > ul{
     display: flex;
     gap: 16px;
     align-items: center;
+    margin-left: 10px;
 }
 .title-content img{
     width: 48px;
@@ -70,6 +71,7 @@ nav li a .home{
     font-size: 64px;
     font-weight: 800;
     text-align: center;
+    margin: 0 auto;
 }
 .banner-description{
     color: #FFF;
@@ -427,4 +429,19 @@ footer{
     background: rgba(19, 19, 24, 0.10);
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+
+/* Responsive section */
+
+@media screen and (max-width: 600px) {
+    nav,
+    .tours,
+    .row,
+    .box-container,
+    .newsletter-container
+    {
+        flex-direction: column;
+    }
 }
